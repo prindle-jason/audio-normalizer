@@ -1,0 +1,2 @@
+ffmpeg-normalize==1.33.1
+ffmpeg-progress-yield==1.0.3

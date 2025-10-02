@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Audio normalizer input/output directories - keep structure but exclude contents
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep

@@ -1,0 +1,9 @@
+services:
+  audio-normalizer:
+    build: .
+    container_name: audio-normalizer
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
